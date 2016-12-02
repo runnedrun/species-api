@@ -4,16 +4,10 @@ $.ajax({
   data: {
     q: "cannis"
   },
-  method: "GET"
-}).then(function(data) {
-  console.log(data)
-}).fail(function(err){
+  method: "GET",
+  success: function() {    
+    console.log(data)    
+  }
+})fail(function(err){
   console.error(err)
 })
-
-function getAnimalData(args) {
-  //
-  return "hi"
-}
-
-console.log(getAnimalData("dog"))
