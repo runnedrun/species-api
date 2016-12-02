@@ -7,5 +7,8 @@ $.ajax({
   method: "GET",
   success: function(data) {         
     console.log(data[0])
+    $.ajax({
+      url: "https://api.gbif.org/v1/species/data[0].key/",
+    })
   }
 })
