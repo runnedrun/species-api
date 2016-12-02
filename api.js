@@ -12,6 +12,8 @@ $.ajax({
 })
 
 function getAnimalData(args) {
+  //
+  return "hi"
 }
 
-animalData("dog")
+console.log(getAnimalData("dog"))
