@@ -4,4 +4,6 @@ $.ajax({
   method: "GET"
 }).then(function(data) {
   console.log(data)
+}).fail(function(err){
+  console.error(err)
 })
