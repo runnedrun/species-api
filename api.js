@@ -5,9 +5,7 @@ $.ajax({
     q: "cannis"
   },
   method: "GET",
-  success: function() {    
-    console.log(data)    
+  success: function(data) {         
+    console.log(data[0])
   }
-})fail(function(err){
-  console.error(err)
 })
