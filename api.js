@@ -10,3 +10,8 @@ $.ajax({
 }).fail(function(err){
   console.error(err)
 })
+
+function getAnimalData(args) {
+}
+
+animalData("dog")
